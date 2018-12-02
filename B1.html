@@ -1,0 +1,114 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+</head>
+<style>
+    body,h1,h2,h3,h4,h5,h6,.w3-wide,{font-family: "Poppins", sans-serif}
+    body {font-size:16px;}
+    body{
+        margin: 0;
+    }
+/* Style the header */
+    .header{
+        background-color:	#000000;
+        padding: 20px;
+        border: 3px solid #000000;
+        
+    }
+/* silde the heading 1*/
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+    li {
+        float: left;
+    }
+    li a, .dropbtn {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    li a:hover, .dropdown:hover .dropbtn {
+        background-color: red;
+    }
+    li.dropdown {
+        display: inline-block;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+</style>
+<body class="w3-content" style="max-width:1200px">
+<br>
+<br>
+<!-- silde/menu-->
+<ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">menu</a></li>
+    <li><a href="#">contact</a></li>
+    <li class="dropdown">
+        <a href="javasvript:void(0)" class="dropbtn">more</a>
+        <div class="dropdown-content">
+            <a href="#">SL:contact 1</a>
+            <a href="#">SL:contact 2</a>
+            <a href="#">SL:contact 3</a>
+        </div>
+    </li>
+</ul>
+<!-- Page Container -->
+<div class="w3-content w3-margin-top"style="width:1400px;">
+<!-- The Grid -->
+<div class="w3-row-padding">
+<!--Right column & Header-->
+<div class="w3-container" style="margin-top:70px" id="showme">
+    <h1 class="w3-jumbo"><b>Caster DC</b></h1>
+    <h1 class="w3-xxxlarge w3-text-black"><b>showme.</b></h1>
+    <hr style="width:500px;border:5px solid black" class="w3-round">
+</div>
+<!-- Photo grid (modal)-->
+<div class="w3-row-padding">
+    <div class="w3-half">
+        <img src="Pictures/เสื้อผ้า/2228293.jpg" style="width:100%" onclick="(this)">
+        <div class="dropdown-content">
+                <p>เสื้อผ้าสไตล์ญี่ปุ่น</p>
+        </div>
+        
+    </div>
+
+</div>
